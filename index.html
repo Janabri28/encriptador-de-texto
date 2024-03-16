@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+     <img src="imagenes/logo.png" alt="logotipo">
+    </header>
+   <main>
+
+        <div class="ventanas">
+            <div class="izquierda">
+                <textarea class="entrada"  id="entrada_encriptada" placeholder="Escriba su texto aquí"></textarea>
+            </div>
+        </div> 
+    
+
+        <div class="ventanas">
+            <div class="derecha">
+                <textarea class="salida" id="salida-encriptada" ></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="copiarContenido()" id="btnCopiar">Copiar</button> 
+                </div>
+            </div>
+        </div>
+    
+        
+            <div class="cortina" id="oculta">
+                <img class="imagen-oculta" src="imagenes/muñeco.png" alt="Imagen muñeco">  
+                <p class="advertencia">No se encontró ningún mensaje para encriptar</p>    
+            </div> 
+        
+            <div class="fondo-centrado">
+                <span class="material-symbols-outlined">
+                error </span><span> Solo se permiten minúsculas</span>
+                <div class="btns">
+                <button class="encriptar" id="btnEncriptar" onclick="btn_Encriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()" id="btnDesencriptar" disabled >Desencriptar</button>
+                </div>    
+            </div>     
+    </main>
+    <script src="script.js"></script>      
+    <footer>
+    <p>Creado por: * Janet Martinez Servantes *</p> 
+    </footer>
+    
+</body>
+</html>

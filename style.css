@@ -1,0 +1,130 @@
+*{
+    background:#F3F5FC;
+    color: #0A3871;
+}
+
+body {    
+    width: 940px;
+    height: 480px;
+}
+
+header{
+    padding: 0.7rem; 
+}
+.ventanas{
+    display: inline-block;
+    width: 38%;  
+    position: relative;
+    vertical-align: top; 
+    text-align: center; 
+    margin-left: 60px;  
+    margin-top: 8px; 
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+.izquierda{ 
+    display: inline-block; 
+    top: 0;
+    left: 0;
+}
+
+.derecha{ 
+    position: relative;
+    display: inline-block;  
+    height: 295px;
+   /* z-index: 1; */
+    }
+
+.cortina{    
+    position: absolute;
+     text-align: center;
+     top: 78px;
+     left:480px;
+     padding: 15px;    
+}
+
+.imagen_oculta{
+    background-image:white;
+    width: 65%;
+}
+
+
+.advertencia{
+    margin: -15px;
+}
+
+.entrada{
+    width: 250px;
+    height: 280px;
+    font-size: 18px;
+    resize: none;
+    border: none;
+    outline: 0 none;
+}
+
+.salida{
+    background: white;
+    width: 250px;
+    height: 200px;
+    font-size: 15px;
+    resize: none;
+    border: none;
+} 
+
+.btn-copiar{
+    background: white;
+    width: 40%;
+    margin-top: 15px;
+    font-size: 15px;
+    border: 1px solid #0A3871;
+    border-radius: 9px;
+    cursor: pointer;
+}
+   
+.fondo-centrado{
+    display: inline-block;
+    height:90px;
+    position: relative;
+    top: 10px;;
+    left:2em;
+    margin: 20px 0;    
+}
+
+.btns{
+    padding: 1em;
+}
+
+.encriptar{
+    width:250px;
+    height: 50px;
+    padding: 10px 5px;
+    font-size: 17px;
+    color: white;
+    background:#0A3871;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 3px;
+    }
+
+.desencriptar{
+    width:250px;
+    height: 50px;
+    padding: 10px 5px;
+    font-size: 17px;
+    color: #0A3871;
+    background:rgb(234, 242, 246);
+    border: none;
+    border-radius: 25px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    margin-right: 3px;
+    }
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-style:italic;
+}
